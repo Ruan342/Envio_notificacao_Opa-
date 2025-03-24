@@ -1,0 +1,12 @@
+# Arquivos de ambiente
+.env
+.env.*
+!env.exemple  # Mantém o arquivo exemplo (opcional)
+
+# Pasta de ambiente virtual
+venv/
+
+# Outros arquivos sensíveis/desnecessários
+__pycache__/
+*.pyc
+*.log
